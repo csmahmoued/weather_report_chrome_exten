@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <div class="content">
+    
+    <div class="mtemp">
+      <span id="temp"></span>
+      <img src="images/sun.png">
+    </div>
+
+    <ul>
+      <li><span> desc  : </span> <span id="desc">145</span> </li>
+      <li><span> min  : </span> <span id="min">145</span> </li>
+      <li><span> max  : </span> <span id="max">145</span></li>
+      <li><span> win-speed  : </span> <span id="win-speed">145</span></li>
+      <li><span> city  : </span> <span id="c">145</span></li>
+
+    </ul>
+
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+<style>
+
+body{
+  padding: 0;
+  margin: 0;
+  width: 180px;
+  height: 200px;
+  background-image: url('/images/bg.jpg') ;
+  background-position: center;
+  color: #fff;
+}
+
+.mtemp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #FFE589;;
+
+}
+
+#temp{
+font-size: x-large;
+font-family: 'Roboto';
+}
+ul{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+ul li{
+  padding: 3px;
+  font-size: large;
+}
+ li span:first-child{
+  color: #FFE589;
+}
+
+
+</style>
